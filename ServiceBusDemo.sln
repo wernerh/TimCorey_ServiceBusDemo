@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBSender", "SBSender\SBSender.csproj", "{1FB500DF-7ABA-410E-A6BF-0EFD1961B752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBShared", "SBShared\SBShared.csproj", "{C6A37E03-3E53-4DE2-AD48-B780FECF2C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBReceiver", "SBReceiver\SBReceiver.csproj", "{E3B6F6DA-8559-4D3E-B0B9-759E02F5EEDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FB500DF-7ABA-410E-A6BF-0EFD1961B752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB500DF-7ABA-410E-A6BF-0EFD1961B752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB500DF-7ABA-410E-A6BF-0EFD1961B752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB500DF-7ABA-410E-A6BF-0EFD1961B752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A37E03-3E53-4DE2-AD48-B780FECF2C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A37E03-3E53-4DE2-AD48-B780FECF2C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A37E03-3E53-4DE2-AD48-B780FECF2C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A37E03-3E53-4DE2-AD48-B780FECF2C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B6F6DA-8559-4D3E-B0B9-759E02F5EEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B6F6DA-8559-4D3E-B0B9-759E02F5EEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B6F6DA-8559-4D3E-B0B9-759E02F5EEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B6F6DA-8559-4D3E-B0B9-759E02F5EEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F63B609-4FAD-41CF-BF85-56634A1B7AEC}
+	EndGlobalSection
+EndGlobal
