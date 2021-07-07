@@ -33,4 +33,35 @@ Welcome to your new app.
         await queue.SendMessageAsync(person, "personqueue");
         person = new PersonModel();
     }
+
+    private async Task Publish1000Message()
+    {
+        await PublishMessage();
+        for (int i = 0; i < 999; i++)
+        {
+            person = new PersonModel { FirstName = GetFirstName(), LastName = GetLastName() };
+            await queue.SendMessageAsync(person, "personqueue");
+            person = new PersonModel();
+        }
+
+    }
+
+    private string GetFirstName()
+    {
+        string[] FirstNames = { "Jess", "Jay", "Jen", "Jack", "Jan", "Issac", "Tom", "Tim", "Bob" };
+        Random r = new Random();
+
+        int index = r.Next(0, FirstNames.Length);
+        return FirstNames[index];
+    }
+
+
+    private string GetLastName()
+    {
+        string[] LastNames = { "Birchfield", "Drown", "Galloway", "Phillips", "Klopfer", "Worthen", "Phillips" };
+        Random r = new Random();
+
+        int index = r.Next(0, LastNames.Length);
+        return LastNames[index];
+    }
 }
